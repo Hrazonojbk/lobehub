@@ -1,5 +1,5 @@
 {
-  "buildCommand": "next build",
+  "buildCommand": "pnpm exec next build",
   "headers": [
     {
       "source": "/_spa/(.*)",
@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "pnpm install",
   "rewrites": [
     {
       "source": "/_dangerous_local_dev_proxy",
