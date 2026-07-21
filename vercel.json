@@ -49,7 +49,7 @@
       ]
     }
   ],
-  "installCommand": "npm install",
+  "installCommand": "npm install --legacy-peer-deps",
   "rewrites": [
     {
       "source": "/_dangerous_local_dev_proxy",
